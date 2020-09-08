@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alas y Raíces | Bases para cursos de formación</title>
+ <!-- Favico -->
+        <link rel="icon" type="image/png" href="https://www.alasyraices.gob.mx/img/favico2.png">
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139317831-1">
+        </script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-139317831-1');
+        </script>
+
+    <!-- bootstrap / jquery / popper  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/035f9caf7c.js" crossorigin="anonymous"></script>
+
+    <!-- style sheets -->
+    <!-- general styles -->
+    <link rel="stylesheet" href="css/Main.css" /> 
+    <link rel="stylesheet" href="css/Navbar.css" />
+    <link rel="stylesheet" href="css/Suscribe.css" />
+    <link rel="stylesheet" href="css/FooterAyR.css">
+    <link rel="stylesheet" href="css/FooterGob.css"/>
+    <!-- page styles -->
+    <link rel="stylesheet" href="css/Bases.css">
+
+</head>
+<body>
+    <div class="container-fluid" style="overflow-x: hidden;">
+        
+    <!-- header gobierno -->
+        <section>
+            <div class="row">
+                <div class="col-12 p-0">                                        
+                    <header>
+                        <section class="header_gobierno bg-light">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <a class="navbar-brand" href="https://www.gob.mx">
+                                    <img src="https://www.alasyraices.gob.mx/landing/gmx.png" width="90" height="30" class="d-inline-block align-top" alt="">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <section class="navbar-collapse justify-content-end collapse" id="navbarNav" style="">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="https://www.gob.mx/tramites">Trámites</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.gob.mx/gobierno">Gobierno</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="https://www.gob.mx/busqueda">🔍
+                                    </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </nav>
+                        </section>
+                    </header>
+                </div>
+            </div>
+        </section>
+    <!--/.header gobierno -->
+         
+    <!-- navBAR alas y raices -->
+        <section>
+            <div class="row">
+                <div class="nav_ayr"></div>
+            </div>
+        </section>
+    <!--/.navBAR alas y raices -->
+
+
+    <!-- main content -->
+        <section>
+            <div class="row bases">
+                <div class="col-md-10 offset-md-1 banner">
+                    <img src="img/bannerMain.png" alt="baner de la convocatoria">
+                </div>
+                <div class="col-md-10 offset-md-1 mainTitle">
+                    Curso virtual “Intervención cultural con adolescentes”
+                </div>
+                <div class="col-md-10 offset-md-1 intro">
+                    La Secretaría de Cultura del Gobierno de México a través de la Dirección General de Vinculación Cultural y la Coordinación Nacional de Desarrollo Cultural Infantil te invitan al curso virtual “Intervención cultural con adolescentes” 
+                </div>
+
+
+                <div class="col-10 offset-1 objetivos">
+                    <div class="row">
+                        <div class="col-md-4 p-1">
+                            <button class="btn btn-block active btnCollapse" data-target="acercaDe" onClick="changeTab(this)">
+                                Acerca del curso
+                            </button>
+                        </div>
+                        <div class="col-md-4 p-1">
+                            <button class="btn btn-block btnCollapse" data-target="objetivoGe" onClick="changeTab(this)">
+                                Objetivo general
+                            </button>
+                        </div>
+                        <div class="col-md-4 p-1">
+                            <button class="btn btn-block btnCollapse" data-target="perfilAl" onClick="changeTab(this)">
+                                Perfil al que va dirigido
+                            </button>
+                        </div>
+
+                        <div class="col-12 objetivoInfo" id="acercaDe">
+                            Resulta fundamental plantear programas y acciones de formación para la actualización y profesionalización de promotores y agentes culturales que trabajan con adolescentes, por este curso pretende brindar elementos teóricos, metodológicos y prácticos que detonen propuestas de actividades en las que las y los adolescentes sean los protagonistas y partan de sus necesidades.
+                        </div>
+                        <div class="col-12 objetivoInfo collapse" id="objetivoGe">
+                            Generar un espacio de actualización para promotores culturales que propicie del desarrollo de conocimientos teóricos y prácticos que contribuyan a fortalecer sus prácticas profesionales en favor de la imaginación, capacidad reflexiva, pensamiento crítico y expresión creativa de adolescentes.
+                        </div>
+                        <div class="col-12 objetivoInfo collapse" id="perfilAl">
+                                <ul>
+                                    <li>Promotores de cultura</li>
+                                    <li>Creadores</li>
+                                    <li>Talleristas</li>
+                                    <li>Comunidad artística que trabaja con adolescentes</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-10 offset-1 contenidos">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="title">Contenidos</div>
+                            <div class="content">
+                                <ul>
+                                    <li>Lectura en voz alta para adolescentes </li>
+                                    <li>El cuerpo habla, expresión desde la corporalidad</li>
+                                    <li>Slam poético</li>
+                                    <li>Una propuesta de teatro para adolescentes </li>
+                                    <li>Una propuesta plástica para la apropiación de espacios públicos </li>
+                                    <li>Arte, ciencia y tecnología </li>
+                                    <li>Creación de memes </li>
+                                    <li>Arte urbano </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="title">Requisitos</div>
+                            <div class="content">
+                                <ul>
+                                    <li>Disponibilidad de tiempo </li>
+                                    <li>Conexión de internet estable</li>
+                                    <li>Habilidades básicas en el uso de tecnologías </li>
+                                    <li>Tener una cuenta de correo electrónico de gmail</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-10 offset-1 fechas">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="title">Duración</div>
+                            <div class="content">58 horas</div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="title">Fechas del desarrollo del curso </div>
+                            <div class="content">
+                                Del 14 de septiembre al 9 de noviembre de 2020 <br>
+                                Lunes y jueves de 10 a 14 horas
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="title">Cupo limitado</div>
+                            <div class="content">40 participantes</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-10 offset-1 registro">
+                    <span>Registrate en: </span> &nbsp;
+                    <a href="https://forms.gle/BUfUChad1HYckesf9">https://forms.gle/BUfUChad1HYckesf9</a>
+                </div>
+
+
+                <div class="col-10 offset-1 anotaciones">
+                    <p>
+                        Se entregará constancia al término del curso, si se cumple con el 90% de asistencias y las activiadades a realizar.
+                    </p>
+
+                    <p>
+                        Este curso se desarrollará por la plataforma Zoom. <br>
+                        Una vez aceptado(a), se le enviará al correo electrónico que proporcionó en el registro la información complementaria para el acceso. 
+                    </p>
+                        
+                    <p>
+                        <span>Dudas y comentarios:</span>  <br>
+                        <a href="mailto:formacionayr@cultura.gob.mx">formacionayr@cultura.gob.mx</a>
+                    </p>
+                </div>
+            </div>        
+        </section>
+
+
+    <!-- footer Alas y raices -->
+        <section>
+            <div class="row footer-ayr">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-sm-4 sub-div text-center">
+                                <span>Estamos en:</span> <br><br>
+        
+                                <a href="https://www.google.com.mx/maps/place/Secretar%C3%ADa+de+Cultura/@19.4308637,-99.1607373,21z/data=!4m5!3m4!1s0x0:0x581dc9dfb95e46b8!8m2!3d19.4309837!4d-99.1606557?shorturl=1">
+                                    Av. Paseo de la Reforma 175, piso 5
+                                    <br>Col. Renacimiento, Alc. Cuauhtémoc,
+                                    <br>C.P. 06500, Ciudad de México, México.
+                                </a> <br><br>
+                            </div>
+                            <div class="col-sm-4 sub-div text-center"> 
+                                <a href="https://www.alasyraices.gob.mx/"> <img src="img/ayrCloud.png" alt="Logo alas y raíces" /> </a><br>
+                                <br>Derechos reservados © Secretaría de Cultura
+                                <br>Coordinación Nacional de Desarrollo Cultural Infantil
+                                <br>Programa Nacional Alas y Raíces, México, 2020.
+                                <br>
+                                <br>
+                            <div class="sub-div-center">
+                                <a href="prensa.html">Sala de Prensa</a>  | 
+                                <a href="nacional.html">Directorio Nacional</a> 
+                            </div> 
+                            </div>
+                            <div class="col-sm-4 sub-div">
+                                Síguenos en nuestras redes: <br> <br>
+                                <a href="https://www.facebook.com/alasyraicescultura/"> <i class="fab fa-2x fa-facebook-f"></i> </a> &nbsp;
+                                <a href="https://twitter.com/alasyraices"> <i class="fab fa-2x fa-twitter"></i> </a> &nbsp;
+                                <a href="https://www.instagram.com/alasyraicescultura/"> <i class="fab fa-2x fa-instagram"></i> </a> &nbsp;
+                                <a href="https://www.youtube.com/c/AlasyRa%C3%ADcesCultura/"><i class="fab fa-2x fa-youtube"></i></a>
+                                <br><br>
+                                Teléfono: <a href="4155-0200">4155-0200 ext 9320</a> <br>
+                                correo-e: <a href="alasyraices@cultura.gob.mx">alasyraices@cultura.gob.mx</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    <!--/.footer Alas y raices -->
+        
+    <!-- footer GOBMX -->
+        <section>
+            <div class="row footer-gob">                
+                <div class="col-12">
+                    <div class="row">
+                        <img src="img/fondofooter.png" alt="pleca de separación" id="pleca-gob">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-3 sub-div footer-gob1">
+                            <div>
+                                <a href="https://www.gob.mx/"> 
+                                    <img src="img/logoheader.svg" alt="logo gobierno mx" /> 
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.gob.mx/cultura/"> 
+                                    <img src="img/logo-cultura.svg" alt="logo secretaria de cultura" /> 
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 sub-div footer-gob2">
+                            <span>Enlaces</span><br><br>
+                            <p>
+                                <a href="https://www.participa.gob.mx/">Participa</a> <br>
+                                <a href="https://www.gob.mx/publicaciones">Publicaciones oficiales</a> <br>
+                                <a href="http://www.ordenjuridico.gob.mx/">Marco Jurídico</a> <br>
+                                <a href="https://www.plataformadetransparencia.org.mx/web/guest/inicio">Plataforma Nacional de Transparencia</a>
+                            </p>
+                        </div>
+    
+                        <div class="col-sm-3 sub-div footer-gob3">
+                            <span>¿Qué es gob.mx?</span><br><br>
+                            <p>
+                                Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a>
+                            </p>
+    
+                            <p>
+                                <a href="https://datos.gob.mx/">Portal de datos abiertos</a><br>
+                                <a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a><br>
+                                <a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a><br>
+                                <a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a><br>
+                                <a href="https://www.gob.mx/terminos">Términos y condiciones</a><br>
+                                <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a><br>
+                                <a href="https://www.gob.mx/sitemap">Mapa del sitio</a>
+                            </p>
+                        </div>
+                        
+                        <div class="col-sm-3 sub-div footer-gob4">
+                            <span> <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></span><br><br>
+                            <p>
+                                Síguenos en: <br>
+                                <a href="https://www.facebook.com/gobmexico/"><i class="fab fa-lg fa-facebook-f"></i></a> &nbsp;&nbsp;
+                                <a href="https://twitter.com/GobiernoMX"><i class="fab fa-lg fa-twitter"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--/.footer GOBMX -->
+
+    </div>
+</body>
+
+<!-- page elements -->
+<script src="js/common.js"></script>
+<!-- general components -->
+<script src="js/Components/Navbar.js"></script>
+
+<script>
+    const btnCollapse = Array.prototype.slice.call(
+        document.getElementsByClassName("btnCollapse")
+    );
+    const tabCollapse = Array.prototype.slice.call(
+        document.getElementsByClassName("objetivoInfo")
+    );
+
+    function changeTab( sel ){
+        //remove active from all btns -> add active to sel btn
+        btnCollapse.forEach(btn => {
+            if( btn.classList.contains("active") ){
+                btn.classList.remove("active");
+            }
+
+            if( sel.dataset.target === btn.dataset.target ){
+                btn.classList.add("active");
+            }
+        });
+
+        //add collapse to all tabs -> remove collapse to sel target tab
+        tabCollapse.forEach(tab => {
+            if( !tab.classList.contains("collapse") ){
+                tab.classList.add("collapse");
+            }
+
+            document.getElementById(sel.dataset.target).classList.remove("collapse");
+        });
+    }
+</script>
+
+</html>
